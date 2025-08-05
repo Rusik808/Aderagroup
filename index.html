@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+
+      <title>Adera Group</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#top" class="nav__logo">
+                  <img src="img/aderalogo.png" alt="Adera Group">
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#home" class="nav__link" data-i18n="nav.home">Главная</a></li>
+                  <li><a href="#about" class="nav__link" data-i18n="nav.about">О Нас</a></li>
+                  <li><a href="#service" class="nav__link" data-i18n="nav.services">Услуги</a></li>
+                  <li><a href="#catalog" class="nav__link" data-i18n="nav.catalog">Каталог</a></li>
+                  <li><a href="#contact" class="nav__link" data-i18n="nav.contact">Контакт</a></li>
+               </ul>
+            </div>
+
+            <div class="nav__lang-switch">
+               <div class="lang-dropdown">
+                  <button class="lang-toggle" id="lang-toggle">RU ▾</button>
+                  <ul class="lang-menu">
+                     <li class="active" data-lang="RU">Рус</li>
+                     <li data-lang="KZ">Қаз</li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <section class="homepage" id="home">
+         <div class="content flex">
+             <div class="text">
+                 <h1 data-i18n="home.title">Adera Group</h1>
+                 <p data-i18n="home.line1">предоставляет профессиональные услуги.</p>
+                 <p data-i18n="home.line2">Мы работаем, чтобы вы могли сосредоточиться на главном.</p>
+             </div>
+             <a href="#service" data-i18n="home.button">Услуги</a>
+         </div>
+      </section>
+
+      <section class="container2">
+         <div id="about" class="content1">
+            <h2>
+               <span data-i18n="about.prefix">О компании</span>
+               <span class="purple">Adera Group</span>
+            </h2>
+            <p data-i18n="about.line1">
+               <strong>Adera Group</strong> – команда профессионалов с опытом в строительстве жилых зданий и инженерных систем. Мы реализуем проекты любой сложности, обеспечивая качество, безопасность и современные решения.
+            </p>
+            <p data-i18n="about.line2">
+               <strong>Широкий спектр услуг</strong> – Наши специалисты разрабатывают и внедряют системы водоснабжения, отопления и кондиционирования воздуха, а также предлагают полный комплекс работ под ключ.
+            </p>
+            <p data-i18n="about.line3">
+               <strong>Индивидуальный подход</strong> – Мы внимательно учитываем требования каждого клиента и подбираем оптимальные решения для каждого объекта.
+            </p>
+        </div>
+      </section>
+
+      <section class="catalog" id="service">
+         <h1>Наши Услуги</h1>
+         <div class="kontent">
+            <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Системы отопления.png" alt="">
+                  <h2>Системы отопления</h2>
+                  <p>Обеспечиваем проектирование, монтаж и обслуживание современных систем отопления для жилых и промышленных объектов. Гарантируем энергоэффективность и надёжность.</p>
+               </div>
+            </div>
+             <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/водоснабжение.png" alt="">
+                  <h2>Водоснабжение</h2>
+                  <p>Предлагаем комплексные решения по установке и обслуживанию систем водоснабжения. Обеспечиваем бесперебойную подачу воды и соответствие санитарным нормам.</p>
+               </div>
+            </div>
+             <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Канализация.png" alt="">
+                  <h2>Канализация</h2>
+                  <p>Проектируем и монтируем системы внутренней и наружной канализации. Обеспечиваем надёжный отвод сточных вод с соблюдением технических норм.</p>
+               </div>
+            </div>
+            <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Вентиляция.png" alt="">
+                  <h2>Вентиляция</h2>
+                  <p>Разрабатываем и устанавливаем системы вентиляции для создания комфортного и безопасного микроклимата в помещениях.</p>
+               </div>
+            </div>
+            <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Электромонтажные работы.png" alt="">
+                  <h2>Электромонтажные работы</h2>
+                  <p>Выполняем электромонтажные работы любой сложности: от прокладки кабеля до установки оборудования. Работаем в соответствии с нормативами и требованиями безопасности.</p>
+               </div>
+            </div>
+            <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Слаботочные системы.png" alt="">
+                  <h2>Слаботочные системы</h2>
+                  <p>Проектируем и внедряем слаботочные системы: видеонаблюдение, пожарную сигнализацию, СКУД, домофонию и СКС. Повышаем безопасность и технологичность объектов.</p>
+               </div>
+            </div>
+            <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Изготовление и продажа насосных станций.png" alt="">
+                  <h2>Изготовление и продажа насосных станций</h2>
+                  <p>Проектируем, изготавливаем и поставляем надёжные насосные станции для водоснабжения и технических нужд. Гарантируем качество и индивидуальный подход.</p>
+               </div>
+            </div>
+            <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Монтаж металлоконструкций.png" alt="">
+                  <h2>Монтаж металлоконструкций</h2>
+                  <p>Осуществляем монтаж металлоконструкций различной сложности для промышленных и гражданских объектов. Обеспечиваем прочность и точность установки.</p>
+               </div>
+            </div>
+            <div class="card">
+               <div class="pattern">
+                  <div class="pattern1"></div>
+                  <div class="pattern2"></div>
+               </div>
+               <div class="box">
+                  <img src="img/Монолитные и внутренние строительные работы.png" alt="">
+                  <h2>Монолитные и внутренние строительные работы</h2>
+                  <p>Выполняем монолитные и внутренние строительные работы на всех этапах: от заливки фундамента до отделки помещений. Соблюдаем сроки и стандарты качества.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+         <h1>Каталог</h1>
+         <!-- Поиск и фильтры -->
+          <div class="filters">
+            <input type="text" id="search" placeholder="Поиск по названию...">
+            <select id="typeFilter">
+               <option value="">Тип</option>
+               <option value="арматура">Арматура</option>
+               <option value="фитинг">Фитинг</option>
+            </select>
+            <select id="brandFilter">
+               <option value="">Производитель</option>
+               <option value="valtec">Valtec</option>
+               <option value="ferro">Ferro</option>
+            </select>
+          </div>
+
+          <!-- Список товаров -->
+           <div class="contemt" id="catalogList">
+           </div>
+
+           <!-- Пагинация -->
+            <div class="pagination" id="pagination"></div>
+      </section>
+
+      <section class="catalog" id="contact">
+         <h1>Контакт</h1>
+         <div class="contact-wrapper">
+      <div class="conteiner">
+      <div class="left">
+         <h3 class="heading">Напишите Нам!</h3>
+         <p class="text">Мы здесь для вас! Чем мы можем помочь?</p>
+         <form action="send.php" method="POST">
+            <div class="inputBox">
+               <input 
+                  type="text"
+                  name="name"
+                  class="name"
+                  placeholder="Введите свое имя"
+               />
+            </div>
+            <div class="inputBox">
+               <input 
+                  type="text"
+                  name="email"
+                  class="email"
+                  placeholder="Введите свой адрес электронной почты"
+               />
+            </div>
+            <div class="inputBox">
+               <input 
+                  type="tel"
+                  name="phone"
+                  class="input"
+                  placeholder="Введите свой номер телефона"
+               />
+            </div>
+            <div class="inputBox">
+               <textarea 
+                  name="message"
+                  class="message"
+                  placeholder="Напишите сообщение..."
+               ></textarea>
+            </div>
+            <button class="bttn">Отправить</button>
+         </form>
+      </div>
+      <div class="right">
+         <div class="illustration">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.2174501950976!2d51.16218549999999!3d43.6852425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41b4316a0b7bc8c7%3A0xe5d45ea1fbdec770!2sADERA%20GROUP!5e0!3m2!1sru!2skz!4v1754332021079!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+         <div class="contact-info">
+            <div class="infoBox">
+               <div class="icon">
+                  <ion-icon name="location"></ion-icon>
+               </div>
+               <div class="text">
+                  <p>31Б микрорайон, 4 дом, Актау</p>
+               </div>
+            </div>
+            <div class="infoBox">
+               <div class="icon">
+                  <ion-icon name="call"></ion-icon>
+               </div>
+               <div class="text">
+                  <a href="tel:8 (707) 788 8587">8 (707) 788 8587</a>
+               </div>
+            </div>
+            <div class="infoBox">
+               <div class="icon">
+                  <ion-icon name="mail"></ion-icon>
+               </div>
+               <div class="text">
+                  <a href="info@adera.kz">info@adera.kz</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="social-icons">
+         <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+         </a>
+         <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+         </a>
+         <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+         </a>
+      </div>
+   </div>
+         </div>         
+      </section>
+
+      <footer>
+         <div class="container1">
+            <div class="wrapper">
+               <div class="footer-widget">
+                  <a href="#">
+                     <img src="img/aderalogo.png" alt="logo">
+                  </a>
+                  <p class="desc">
+                     <strong>Adera Group</strong> – команда профессионалов с опытом в строительстве жилых зданий и инженерных систем.
+                  </p>
+                  <ul class="socials">
+                     <li>
+                        <a href="#">
+                           <i class="ri-whatsapp-line"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <i class="ri-instagram-line"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <i class="ri-telegram-line"></i>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer-widget">
+                  <h6>Ссылки</h6>
+                  <ul class="links">
+                     <li><a href="#">Главная</a></li>
+                     <li><a href="#">О Нас</a></li>
+                     <li><a href="#">Услуги</a></li>
+                     <li><a href="#">Каталог</a></li>
+                     <li><a href="#">Контакт</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-widget">
+                  <h6>Контакт</h6>
+                  <ul class="links">
+                     <li>
+                        <a href="#">
+                           <i class="ri-map-pin-line"></i>
+                           <span>31Б микрорайон, 4 дом, Актау 130000</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="8 (707) 788 8587">
+                           <i class="ri-phone-fill"></i>
+                           <span>8 (707) 788 8587</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <i class="ri-mail-line"></i>
+                           <span>info@adera.kz</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="copyright-wrapper">
+               <p>
+                  © 2025 Adera Group. Все права защищены.
+               </p>
+            </div>
+         </div>
+      </footer>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="js/js.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/lang.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   </body>
+</html>
